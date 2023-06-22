@@ -40,13 +40,13 @@
     }
     header>div>nav {
         width: 390px; height: 100%;
-        padding: 35vh 0;
         position: fixed;
         top: 0; left: -390px;
         background-color: rgba(36, 36, 36,0.7);
     }
     header>div>nav>ul {
         width: 80%;
+        padding: 35vh 0;
         margin: 0 auto;
         display: block;
     }
@@ -180,7 +180,6 @@
     }
     header>div>nav {
         width: 100vw; height: 100vh;
-        padding: 30vh 10vw 0;
         position: fixed;
         top: 0; left: -100vw;
         z-index: 900;
@@ -188,6 +187,7 @@
         background-color: rgba(36, 36, 36,0.7);
     }
     header>div>nav>ul {
+        padding: 30vh 10vw 0;
         display: block;
         text-align: center;
         border-top: 1px #fff solid;
