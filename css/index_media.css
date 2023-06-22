@@ -1,0 +1,360 @@
+/* web base */
+@media screen and (min-width: 1155px) {
+    header>div {
+        width: 1155px;
+    }
+    article#box01>ul {
+        width: 1155px;
+        margin-left: -577px;
+        bottom: 50px; left: 50%;
+    }
+    article#box02>div {
+        width: 1155px;
+    }
+    article#box03>div {
+        width: 1155px;
+    }
+    article#box04>form {
+        width: 1155px;
+    }
+}
+
+/* web fluid */
+@media screen and (max-width: 1154px) and (min-width: 980px) {
+}
+
+/* tablet */
+@media screen and (max-width: 979px) and (min-width: 580px) {
+    /* header */
+    header {
+        padding: 25px 0;
+    }
+    header>div {
+        display: block;
+    }
+    header>div>h1 {
+        text-align: center;
+    }
+    header>p.btn {
+        display: block;
+    }
+    header>div>nav {
+        width: 390px; height: 100%;
+        padding: 35vh 0;
+        position: fixed;
+        top: 0; left: -390px;
+        background-color: rgba(36, 36, 36,0.7);
+    }
+    header>div>nav>ul {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    header>div>nav>ul>li {
+        padding: 3vh 0;
+        border-bottom: 1px #fff solid;
+    }
+    header>div>nav>ul>li>a {
+        margin: 0;
+        display: block;
+        font-size: 24px;
+        text-align: center;
+    }
+    header>div>nav>p.close {
+        display: flex;
+    }
+
+    /* article#box01 */
+    article#box01 {
+        background-size: auto 100%;
+    }
+    article#box01>ul {
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article#box01>ul>li {
+        width: 33.3333333vw;
+    }
+    article#box01>ul>li>span {
+        width: 28vw; height: 28vw;
+    }
+
+    article#box01>ul>li>dl {
+        width: 28vw;
+    }
+
+    /* article#box02 */
+    article#box02>div>section {
+        margin: 0 auto;
+        display: block;
+    }
+    article#box02>div>section>h4 {
+        width: 36vw;
+        margin: 0 auto; padding-bottom: 30px;
+    }
+    article#box02>div>section>ul {
+        width: 52vw;
+        margin: 0 auto;
+    }
+    article#box02>div>section.info {
+        margin-bottom: 100px;
+    }
+    article#box02>div>section.skills>h4 {
+        display: none;
+    }
+    article#box02>div>section.skills>ul {
+        width: 76vw;
+        margin: 0 auto;
+    }
+
+    /* article#box03 */
+    article#box03>div {
+        width: auto;
+    }
+    article#box03>div>div#gallery>p.prev {
+        display: block;
+        color: rgba(220,220,220,0.5);
+    }
+    article#box03>div>div#gallery>p.next {
+        display: block;
+        font-size: 6vw; color: rgba(220,220,220,0.5);
+    }
+    article#box03>div>div#gallery>div#show {
+        width: 72vw;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    article#box03>div>div#gallery>div#show>div#all {
+        width: 216vw;
+    }
+    article#box03>div>div#gallery>div#show>div#all>figure {
+        width: 36vw;
+    }
+    article#box03>div>div#gallery>div#show>div#all>figure>img {
+        width: 28vw; height: 28vw;
+    }
+
+    /* article#box04 */
+    article#box04>form>fieldset {
+        margin: 0 auto;
+    }
+    article#box04>form>fieldset>ul>li {
+        padding-left: 140px;
+    }
+    article#box04>form>fieldset>ul>li>label {
+        padding: 0;
+    }
+    article#box04>form>fieldset>ul>li:nth-child(1)>label {
+        background: none;
+    }
+    article#box04>form>fieldset>ul>li:nth-child(2)>label {
+        background: none;
+    }
+    article#box04>form>fieldset>ul>li:nth-child(3)>label {
+        background: none;
+    }
+    article#box04>form>fieldset>ul>li:nth-child(4)>label {
+        background: none;
+    }
+    article#box04>form>fieldset>p>input {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 579px) {
+    /* header */
+    header>div {
+        display: block;
+    }
+    header>div>h1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    header>p.btn {
+        display: block;
+    }
+    header>div>nav {
+        width: 100vw; height: 100vh;
+        padding: 30vh 10vw 0;
+        position: fixed;
+        top: 0; left: -100vw;
+        z-index: 900;
+        box-sizing: border-box;
+        background-color: rgba(36, 36, 36,0.7);
+    }
+    header>div>nav>ul {
+        display: block;
+        text-align: center;
+        border-top: 1px #fff solid;
+    }
+    header>div>nav>ul>li {
+        padding: 4vh 0;
+        border-bottom: 1px #fff solid;
+    }
+    header>div>nav>ul>li>a {
+        margin: 0;
+        font-size: 24px;
+        line-height: 5vh;
+    }
+    header>div>nav>p.close {
+        display: flex;
+    }
+
+    /* article#box01 */
+    article#box01 {
+        background-size: auto 100%;
+    }
+    article#box01>ul {
+        display: none;
+    }
+
+    /* article#box02 */
+    article#box02>div>h3 {
+        text-align: left;
+        margin-left: 6vw;
+    }
+    article#box02>div>section {
+        width: 80vw;
+        margin: 0 auto;
+        display: block;
+    }
+    article#box02>div>section>h4 {
+        width: 50vw;
+        margin: 0 auto 40px;
+    }
+    article#box02>div>section>ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+    article#box02>div>section>ul>li {
+        padding-left: 30%;
+    }
+    article#box02>div>section.info {
+        margin-bottom: 40px;
+    }
+    article#box02>div>section.skills>h4 {
+        display: none;
+    }
+
+    /* article#box03 */
+    article#box03 {
+        padding-bottom: 50px;
+    }
+    article#box03>div>h3 {
+        text-align: left;
+        margin: 0 0 6vw 50px;
+    }
+    article#box03>div>ul {
+        margin-bottom: 50px;
+    }
+    article#box03>div>div#gallery>p.prev {
+        top: 18vw; right: 4vw;
+        display: block;
+        color: rgba(220,220,220,0.5);
+    }
+    article#box03>div>div#gallery>p.next {
+        top: 18vw; right: 4vw;
+        display: block;
+        font-size: 6vw; color: rgba(220,220,220,0.5);
+    }
+    article#box03>div>div#gallery>div#show {
+        width: 65vw;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    article#box03>div>div#gallery>div#show>div#all {
+        width: 390vw;
+    }
+    article#box03>div>div#gallery>div#show>div#all>figure {
+        width: 65vw;
+        margin-bottom: 0px;
+    }
+    article#box03>div>div#gallery>div#show>div#all>figure>img {
+        width: 100%; height: 40vw;
+        border-radius: 0;
+    }
+
+    /* article#box04 */
+    article#box04>h3 {
+        text-align: left;
+        margin-left: 6vw;
+    }
+    article#box04>form>fieldset {
+        margin: 0 auto;
+    }
+    article#box04>form>fieldset>ul>li {
+        padding-left: 0;
+    }
+    article#box04>form>fieldset>ul>li>label {
+        display: none;
+    }
+    article#box04>form>fieldset>ul>li:nth-child(1)>label {
+        background: none;
+    }
+    article#box04>form>fieldset>ul>li:nth-child(2)>label {
+        background: none;
+    }
+    article#box04>form>fieldset>ul>li:nth-child(3)>label {
+        background: none;
+    }
+    article#box04>form>fieldset>ul>li:nth-child(4)>label {
+        background: none;
+    }
+    article#box04>form>fieldset>p>input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 979px) {
+    /* article#box03 div#modal */
+    article#box03>div>div#modal {
+        padding: 10vh 2vh 2vh;
+        box-sizing: border-box;
+    }
+    article#box03>div>div#modal>p.close {
+        width: 6vh; height: 6vh;
+        top: 2vh; right: 2vh;
+        font-size: 5vh;
+    }
+    article#box03>div>div#modal>section {
+        width: 100%; height: 100%;
+        margin: 0; padding: 3vh 4vw;
+        position: static;
+        top: 0; left: 0;
+        box-sizing: border-box;
+    }
+    article#box03>div>div#modal>section>h4 {
+        margin-bottom: 3vh;
+        font-size: 4vh;
+        line-height: 4vh;
+    }
+    article#box03>div>div#modal>section>div {
+        width: 100%;
+    }
+    article#box03>div>div#modal>section>div>figure {
+        width: 100%; height: 32vh;
+        overflow: hidden;
+        margin-bottom: 4vh;
+    }
+    article#box03>div>div#modal>section>div>figure>img {
+        width: 100%;
+    }
+    article#box03>div>div#modal>section>div>figure>figcaption {
+        display: none;
+    }
+    article#box03>div>div#modal>section>div>dl {
+        width: 100%;
+        line-height: 2vh;
+    }
+    article#box03>div>div#modal>section>div>dl>dt {
+        width: 30%;
+    }
+    article#box03>div>div#modal>section>div>dl>dd {
+        width: 70%;
+    }
+}
