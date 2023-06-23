@@ -291,7 +291,12 @@
         padding-left: 0;
     }
     article#box04>form>fieldset>ul>li>label {
-        display: none;
+        width: auto;
+        padding-left: 0;
+        position: absolute;
+        top: 0px; left: 15px;
+        background: none;
+        font-size: 18px; color: #f93c64; font-weight: 900;
     }
     article#box04>form>fieldset>ul>li:nth-child(1)>label {
         background: none;

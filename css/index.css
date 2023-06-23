@@ -298,7 +298,7 @@ article#box03>div>div#modal {
     display: flex;
     justify-content: center; align-items: center;
     background-color: rgba(0,0,0,0.8);
-    display: none;
+    display: block;
 }
 article#box03>div>div#modal>p.close {
     width: 35px; height: 35px;
